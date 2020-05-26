@@ -1,0 +1,36 @@
+.item {
+  background-color: #bf07ac;
+  color: #fff;
+  margin: 20px auto;
+  height: 50px;
+  width: 300px;
+  line-height: 45px;
+  border-radius: 5px;
+}
+.list-item {
+  padding-left: 10px;
+}
+.trash {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.todo {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+}
+.todo :focus {
+  outline: none;
+  border: none;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
